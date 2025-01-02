@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Assignment 2</h1>
+        <h2>About me</h2>
+    </header>
+
+    <!-- Picture section with responsiveness -->
+     <section>
+        <h2>Here is my picture</h2>
+        <picture>
+            <source srcset="./assets/images/my_image.png" media="(max-width: 600px)">
+            <source srcset="./assets/images/my_image.png" media="(min-width: 601px)">
+            <source srcset="./assets/images/my_image.png" media="(min-width: 901px)">
+            <img src="./assets/images/my_image.png" alt="My picture">
+        </picture>
+     </section>
+
+    <!-- Audio section about me -->
+     <section>
+        <p>Listen to one of my favorite songs by David Kushner:</p>
+        <audio controls>
+            <source src="./assets/audio/Skin-and-Bones-by-David-Kushner.mp3" type="audio/mp3">
+        </audio>
+     </section>
+
+    <!-- Video section about me -->
+     <section>
+        <P>This is one of my best videos, a video about computer science video:</P>
+        <video controls>
+            <source src="./assets/video/computer_science_video.mp4" type="video/mp4">
+            <source src="./assets/video/computer_science_video.webm" type="video/webm">
+            Your browser does not support the video tag. Please upgrade to a modern browser.
+        </video>
+     </section>
+</body>
+</html>
+
+<!-- TODO -->
+<!-- Use all media elements in HTML to create a powerful message about yourself. -->
+ <!-- Use the picture element with more than 3 sources with responsiveness for mobile, tablet and laptop -->
